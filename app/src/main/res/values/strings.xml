@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Prueba_Volley_Arreglado</string>
+
+    <string name="helper">Requerido</string>
+
+    <string name="TituloRegistro">Nuevo Usuario</string>
+    <string name="TituloSesion">Inicio de Sesión</string>
+    <string name="TituloDato">Datos del Usuario</string>
+
+    <string name="btonRegistro">Registrar Usuario</string>
+    <string name="btonInicio">Iniciar Sesión</string>
+    <string name="btonNuevoUsuario">Crear Usuario</string>
+    <string name="btonSalir">Terminar Sesión</string>
+
+    <string name="editNombre">Nombre</string>
+    <string name="editApellido">Apellido</string>
+    <string name="editUsuario">Nombre de Usuario</string>
+    <string name="editClave">Contraseña</string>
+
+    <string name="Holder">PlaceHolder</string>
+    <string name="Bienveido">Bienvenido Usuario</string>
+
+    <string name="InformacionUsuario1">Nombre de Usuario: %1$s</string>
+    <string name="InformacionUsuario2">Nombre: %1$s</string>
+    <string name="InformacionUsuario3">Apellido: %1$s</string>
+    <string name="InformacionUsuario4">Contraseña: %1$s</string>
+</resources>
