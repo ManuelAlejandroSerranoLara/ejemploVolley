@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -62,7 +63,7 @@ public class UserListScreenActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 },
-                error -> error.printStackTrace());
+                error -> Toast.makeText(getApplicationContext(), "Error "+error.getMessage(), Toast.LENGTH_LONG).show());
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(request);
