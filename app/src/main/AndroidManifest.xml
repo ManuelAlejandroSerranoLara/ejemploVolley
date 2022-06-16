@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Prueba_Volley_Arreglado"
         tools:targetApi="31">
         <activity
+            android:name=".UserListScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserScreenActivity"
             android:exported="false" />
         <activity

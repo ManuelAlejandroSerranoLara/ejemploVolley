@@ -11,6 +11,7 @@
     <string name="btonInicio">Iniciar Sesión</string>
     <string name="btonNuevoUsuario">Crear Usuario</string>
     <string name="btonSalir">Terminar Sesión</string>
+    <string name="btonCargar">Cargar Lista de Usuarios</string>
 
     <string name="editNombre">Nombre</string>
     <string name="editApellido">Apellido</string>

@@ -67,21 +67,11 @@ public class LoginScreenActivity extends AppCompatActivity {
                         String evento = jsonObject.getString("evento");
 
                         if(evento.equals("Success")) {
-                            int id = jsonObject.getInt("id_usuario");
-                            String username = jsonObject.getString("nombre_usuario");
-                            String password = jsonObject.getString("password");
-                            String nombre = jsonObject.getString("nombre");
-                            String apellido = jsonObject.getString("apellido");
 
                             Toast.makeText(getApplicationContext(), "Inicio de Sesión Correcta", Toast.LENGTH_SHORT).show();
 
-                            Intent user = new Intent(LoginScreenActivity.this, UserScreenActivity.class);
-                            user.putExtra("id", id);
-                            user.putExtra("nombre", nombre);
-                            user.putExtra("apellido", apellido);
-                            user.putExtra("username", username);
-                            user.putExtra("password", password);
-                            startActivity(user);
+                            Intent intent = new Intent(LoginScreenActivity.this, UserListScreenActivity.class);
+                            startActivity(intent);
                         } else {
                             Toast.makeText(getApplicationContext(), "Nombre de Usuario o Contraseña Incorrecta", Toast.LENGTH_SHORT).show();
                         }

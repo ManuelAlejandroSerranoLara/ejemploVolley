@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/layout/activity_login_screen.xml" value="0.33541666666666664" />
         <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/layout/activity_register_screen.xml" value="0.33541666666666664" />
+        <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/layout/activity_user_list_screen.xml" value="0.25" />
         <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/layout/activity_user_screen.xml" value="0.3182291666666667" />
+        <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/layout/recycle_view_row.xml" value="0.33" />
         <entry key="..\:/Users/Manuel Serrano/AndroidStudioProjects/Prueba_Volley_Arreglado/app/src/main/res/xml/network_security_config.xml" value="0.33541666666666664" />
       </map>
     </option>
