@@ -25,4 +25,9 @@
     <string name="InformacionUsuario2">Nombre: %1$s</string>
     <string name="InformacionUsuario3">Apellido: %1$s</string>
     <string name="InformacionUsuario4">Contraseña: %1$s</string>
+
+    <string name="SalidaID">ID: %1$d</string>
+    <string name="SalidaUsername">Nombre de Usuario: %1$s</string>
+    <string name="SalidaName">Nombre: %1$s</string>
+    <string name="SalidaSurname">Apellido: %1$s</string>
 </resources>

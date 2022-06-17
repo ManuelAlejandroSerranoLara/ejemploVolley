@@ -30,10 +30,10 @@ public class RecycleViewAdapterActivity extends RecyclerView.Adapter<RecycleView
 
     @Override
     public void onBindViewHolder(@NonNull RecycleViewAdapterActivity.MyViewHolder holder, int position) {
-        holder.tvID.setText("ID: " + usuarios.get(position).getUserID());
-        holder.tvUsername.setText("Nombre de Usuario: " + usuarios.get(position).getUsername());
-        holder.tvName.setText("Nombre: " + usuarios.get(position).getName());
-        holder.tvSurname.setText("Apellido" + usuarios.get(position).getSurname());
+        holder.tvID.setText(context.getString(R.string.SalidaID, usuarios.get(position).getUserID()));
+        holder.tvUsername.setText(context.getString(R.string.SalidaUsername, usuarios.get(position).getUsername()));
+        holder.tvName.setText(context.getString(R.string.SalidaName, usuarios.get(position).getName()));
+        holder.tvSurname.setText(context.getString(R.string.SalidaSurname, usuarios.get(position).getSurname()));
     }
 
     @Override
